@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Construction from './components/Construction.js'
+import Construction from './components/construction.js'
+import Contact from './components/contact.js'
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className='App'>
         <Construction />
+        <Contact /> 
       </div>
     );
   }
@@ -15,5 +18,4 @@ class App extends Component {
 export default App;
 
 // TODO favicon
-// contact links
-// update readme.md
+// contact images white

@@ -1,14 +1,37 @@
 .App {
   text-align: center;
+  background-color: #171717;
+  min-height: 100vh;
+}
+
+.contact {
+  padding: 10px;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 7px;
+}
+
+.contact-image {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  padding: 3px;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 .construction {
-  background-color: #171717;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
   font-size: calc(30px + 2vmin);
   color: white;
   margin: 0;
@@ -19,7 +42,13 @@
   font-size: calc(40px + 2vmin);
 }
 
+.construction-span {
+  padding: 0;
+  margin: 0;
+}
+
 .noselect {
+  margin: 0;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
