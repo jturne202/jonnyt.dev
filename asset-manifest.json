@@ -1,0 +1,17 @@
+{
+  "main.css": "/static/css/main.260f9e3e.chunk.css",
+  "main.js": "/static/js/main.f0a46be4.chunk.js",
+  "main.js.map": "/static/js/main.f0a46be4.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
+  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
+  "static/js/2.6b9c2c12.chunk.js": "/static/js/2.6b9c2c12.chunk.js",
+  "static/js/2.6b9c2c12.chunk.js.map": "/static/js/2.6b9c2c12.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.8020b1e522f470fe7b841a5915c380eb.js": "/precache-manifest.8020b1e522f470fe7b841a5915c380eb.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.260f9e3e.chunk.css.map": "/static/css/main.260f9e3e.chunk.css.map",
+  "static/media/ElectronScreenRecorder.png": "/static/media/ElectronScreenRecorder.5f3a6fd8.png",
+  "static/media/GlasgowWeatherBot.png": "/static/media/GlasgowWeatherBot.01992173.png",
+  "static/media/Jonathan Turner CV 3.0.0.pdf": "/static/media/Jonathan Turner CV 3.0.0.f8518c88.pdf",
+  "static/media/SearchForSelection.PNG": "/static/media/SearchForSelection.23eaccf5.PNG"
+}
