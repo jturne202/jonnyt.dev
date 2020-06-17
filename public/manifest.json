@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "jonnyt.dev",
+  "name": "Jonathan Turner",
+  "version": "1.0.0",
+  "description": "Jonathan Turner - Software Engineer - Glasgow - Personal Site",
   "icons": [
     {
       "src": "favicon.ico",

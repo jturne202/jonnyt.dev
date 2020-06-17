@@ -1,17 +1,20 @@
 import React from 'react';
-import instagram from '../Images/instagram.png'
-import email from '../Images/email.png'
+import EmailIcon from '@material-ui/icons/Email';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-export default class Contact extends React.Component {
-
-    render() {
-        return (
-            <div className='contact'>
-                <a href='mailto:contact@jonnyt.dev'><img className='contact-image' src={email} /></a>
-                <a className='contact-link' href='mailto:contact@jonnyt.dev'>contact@jonnyt.dev</a>
-                <a href='https://www.instagram.com/jonnydt95/'><img className='contact-image' src={instagram} /></a>
-                <a className='contact-link' href='https://www.instagram.com/jonnydt95/' target="_blank">Instagram</a>
+export default Contact => {
+    return (
+        <div id='contact-me-container'>
+            <h1>Contact Me</h1>
+            <div className='contact-container'>
+                <a href='mailto:contact@jonnyt.dev'><EmailIcon /></a>
+                <p>Send me an email: <a href='mailto:contact@jonnyt.dev'>contact@jonnyt.dev</a></p>  {/* TODO: npm copy to clipboard */} 
             </div>
-        )
-    }
+            <div className='contact-container'>
+                <a href='mailto:contact@jonnyt.dev'><LinkedInIcon /></a>
+                <p>Contact me via: <a href='https://www.linkedin.com/in/jonathanturner95'>LinkedIn</a></p>
+            </div>
+            {/* TODO: Add message area */}
+        </div>
+    )
 }

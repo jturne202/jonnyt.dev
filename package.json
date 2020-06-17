@@ -4,11 +4,14 @@
   "private": true,
   "homepage": "https://jonnyt.dev/",
   "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.9.1",
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-scroll-to-element": "^0.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

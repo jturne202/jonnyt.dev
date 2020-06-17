@@ -1,2 +1,2 @@
 # [jonnyt.dev](https://jonnyt.dev/)
-My **[WIP]** personal site using react.
+My personal site using react, hosted using github pages.
