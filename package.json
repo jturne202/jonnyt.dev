@@ -1,12 +1,12 @@
 {
   "name": "jonnyt-dev",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "homepage": "https://jonnyt.dev/",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.9.1",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.3.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
