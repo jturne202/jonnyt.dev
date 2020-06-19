@@ -1,22 +1,21 @@
 import React from 'react';
-import Scroll from 'react-scroll-to-element';
+import { Link } from 'react-router-dom';
 import logo from '../Images/JT-white.png';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-const Header = ({navigationClicked}) => {
-    const offset = -25;
+const Header = () => {
     return (
         <div className='header'>
             <div id='logo'>
-                <a href='https://jonnyt.dev'><img className='logo-image' src={logo} alt='logo'/></a>
+                <Link to='/'><img className='logo-image' src={logo} alt='logo'/></Link>
             </div>
             <div id='navigation'>
-                <Scroll type='id' element='about-me-container' offset={offset}><div className='navigation-link'>About</div></Scroll>
-                <Scroll type='id' element='projects-container' offset={offset}><div className='navigation-link'>Projects</div></Scroll>
-                <Scroll type='id' element='contact-me-container' offset={offset}><div className='navigation-link'>Contact</div></Scroll>
+                <Link to='/#about' className='navigation-link' onClick={scrollTo}><div data-value='#about'>About</div></Link> 
+                <Link to='/#projects' className='navigation-link' onClick={scrollTo}><div data-value='#projects'>Projects</div></Link> 
+                <Link to='/#contact' className='navigation-link' onClick={scrollTo}><div data-value='#contact'>Contact</div></Link> 
             </div>
             <div id='external-contact'>
                 <a href='https://github.com/jturne202' target='_blank' rel='noopener noreferrer'><GitHubIcon /></a>

@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/header.js'
-import About from './components/about.js';
-import Projects from './components/projects.js'
-import Contact from './components/contact.js'
+import Home from './components/home.js'
+import Algorithms from './components/projects/algorithms.js';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Header /> 
-        <div className='content'>
-          <About />
-          <Projects />
-          <Contact />
-        </div>
+        <Router>
+          <Header /> 
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/Projects/algorithms'>
+              <Algorithms/>
+            </Route>
+          </Switch>
+        </Router>
       </div>
     );
   }
