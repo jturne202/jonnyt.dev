@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { scrollToByContainerId } from '../Helpers/helper.js'
 import logo from '../Images/JT-white.png';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -7,6 +8,12 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const Header = () => {
+    const scrollTo = e => {
+        if (e && e.target && e.target.dataset && e.target.dataset.value) {
+            scrollToByContainerId(e.target.dataset.value)
+        }
+    }
+    
     return (
         <div className='header'>
             <div id='logo'>

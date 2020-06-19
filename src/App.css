@@ -1,9 +1,8 @@
 .App {
   text-align: center;
   background-color: #151517;
-  min-height: 100vh;
-  width: fit-content;
   min-width: 430px;
+  width: unset;
 }
 
 /* Header */

@@ -34,12 +34,24 @@ export default Projects => {
             buttonText: 'View',
             buttonLink: 'https://github.com/jturne202/Electron-Screen-Recorder'
         }
+        ,
+        {
+            id: 4,
+            title: 'Algorithms',
+            summary: 'JavaScript algoritms visualised',
+            image: ElectronScreenRecorder,
+            imageLink: 'algorithms',
+            linkType: 'RouterLink',
+            buttonText: 'View',
+            buttonLink: 'algorithms'
+        }
     ];
 
+    projects.sort((a, b) => b.id - a.id)
     var renderedProjects = projects.map(project => <Project project={project} key={project.id}/>)
 
     return (
-        <div id='projects-container'>
+        <div id='#projects-container'>
             <h1>Projects</h1>
             <div className='projects-container'>
                 {renderedProjects}

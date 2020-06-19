@@ -6,7 +6,7 @@ export default class About extends React.Component {
 
     render() {
         return (
-        <div id='about-me-container'>
+        <div id='#about-container'>
             <h1>About Me</h1>
             <p id='about-paragragh'>
                 I am a driven, hard working, passionate software developer located in Glasgow. 

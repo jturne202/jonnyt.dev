@@ -4,7 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default Contact => {
     return (
-        <div id='contact-me-container'>
+        <div id='#contact-container'>
             <h1>Contact Me</h1>
             <div className='contact-container'>
                 <a href='mailto:contact@jonnyt.dev'><EmailIcon /></a>
