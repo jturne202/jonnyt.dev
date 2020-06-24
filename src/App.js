@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/header.js'
 import Home from './components/home.js'
-import Algorithms from './components/projects/algorithms.js';
+import Algorithms from './components/projects/algorithms/algorithms.js';
 
 class App extends Component {
   render() {
